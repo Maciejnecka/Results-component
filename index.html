@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <!-- Main container -->
+
+    <main class="container">
+      <!-- Result container -->
+
+      <div class="container__result">
+        <h2 class="container__result--heading">Your Result</h2>
+        <div class="container__score--main">
+          76 <span class="container__score--of">of 100</span>
+        </div>
+        <h1 class="result__footer--title">Great</h1>
+        <p class="result__footer--p">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <!-- Summary container -->
+
+      <div class="container__summary">
+        <ul class="container__summary--list">
+          <h1 class="container__summary--heading">Summary</h1>
+          <li class="list__item--1">
+            <img
+              class="icon"
+              src="/assets/images/icon-reaction.svg"
+              alt="reaction icon"
+            />
+            Reaction
+            <span class="item--1--score">
+              80 <span class="score--faded"> / 100</span></span
+            >
+          </li>
+          <li class="list__item--2">
+            <img
+              class="icon"
+              src="/assets/images/icon-memory.svg"
+              alt="reaction icon"
+            />Memory
+            <span class="item--2--score">
+              92 <span class="score--faded"> / 100</span></span
+            >
+          </li>
+          <li class="list__item--3">
+            <img
+              class="icon"
+              src="/assets/images/icon-verbal.svg"
+              alt="reaction icon"
+            />Verbal
+            <span class="item--3--score">
+              61 <span class="score--faded"> / 100</span></span
+            >
+          </li>
+          <li class="list__item--4">
+            <img
+              class="icon"
+              src="/assets/images/icon-visual.svg"
+              alt="reaction icon"
+            />Visual
+            <span class="item--4--score">
+              72 <span class="score--faded"> / 100</span></span
+            >
+          </li>
+        </ul>
+        <div class="btn__container">
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
