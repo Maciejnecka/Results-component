@@ -1,0 +1,33 @@
+/* Media 1200 px  */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* Media 900 px */
+@media (max-width: 56em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* Media 640 px */
+@media (max-width: 40em) {
+  html {
+    font-size: 37.5%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* Media 432 px */
+@media (max-width: 27em) {
+  html {
+    font-size: 37.5%;
+  }
+}
